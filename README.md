@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@titusjan](https://github.com/titusjan/)
 
-
-<!-- dummy commit to enable rerendering -->
-
