@@ -3,7 +3,6 @@
 # Everything else is managed by the conda-smithy rerender process.
 # Please do not modify
 
-build_artifacts
 # Ignore all files and folders in root
 *
 !/conda-forge.yml
@@ -24,5 +23,7 @@ build_artifacts
 
 *.pyc
 
-.idea
-
+# Rattler-build's artifacts are in `output` when not specifying anything.
+/output
+# Pixi's configuration
+.pixi
